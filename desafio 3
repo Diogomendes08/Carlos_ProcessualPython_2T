@@ -1,0 +1,31 @@
+usuarios = ["Arthur", "Beatriz", "Caio", "Daniela", "Eduardo", "Fernanda", "Gabriel", "Helena", "Igor", "Júlia",
+"Kauã", "Larissa", "Miguel", "Natália", "Otávio",]
+
+for usuarios in  usuarios:
+    
+"Olivia", "Pedro", "Patrícia", "Rafael", "Rafaela",
+"Samuel", "Sabrina", "Thiago", "Tainá", "Victor", "Úrsula", "William", "Valentina", "André", "Yasmin",
+
+for usuarios in usuarios:
+    
+"Bruno", "Zuleika", "Diego", "Clara", "Enzo", "Cecília", "Guilherme", "Elisa", "Heitor", "Lívia",
+"Isaac", "Mariana", "Jorge", "Sofia", "Lucas",
+
+for usuarios in usuarios:
+    
+"Ana", "Benjamin", "Camila", "Daniel", "Eduarda",
+"Felipe", "Gabriela", "Henrique", "Isabela", "João", "Karina", "Leonardo", "Luana", "Nicolas", "Maria",
+
+for usuarios in usuarios:
+    
+"Alex", "Ariel", "Charlie", "Dani", "Dominique", "Emerson", "Francis", "Gabi", "Harley", "Indigo",
+"Jaime", "Kai", "Logan", "Morgan", "Noel",
+
+"Orion", "Phoenix", "Quinn", "Riley", "Sam",
+"Taylor", "Zion", "Avery", "Blair", "Casey", "Devon", "Eden", "Finley", "Gray", "Hunter",
+"Jordan", "Kendall", "Leslie", "Milan", "Nico", "Ocean", "Robin", "Sky", "Terry", "Winter"]
+
+for usuarios in  usuarios:
+    in  usuarios ==""
+print (usuario "encontrado", usuarios) break
+print("verificando"  usuarios)
