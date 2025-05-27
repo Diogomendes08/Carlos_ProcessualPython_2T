@@ -1,0 +1,11 @@
+nome = input("digite seu nome: ")
+idade = input("digite sua idade: ")
+cidade = input("digite sua cidade: ")
+time = input("digite seu time: ")
+estilo = input("qual seu estilo: ")
+
+print(f"olá, {nome}, seja bem vindo senhor.")
+print(f"voce tem {idade}, anos.")
+print(f"voce mora em {cidade}.")
+print(f"seu time é {time}.")
+print(f"qual seu estilo {estilo}.")
