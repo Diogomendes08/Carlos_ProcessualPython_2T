@@ -1,23 +1,8 @@
-nomes = [
-    "Alice", "Bruno", "Carlos", "Diana", "Eduardo", "Fernanda", "Gustavo", "Helena", "Igor", "Julia",
-    "Kevin", "Larissa", "Marcos", "Natalia", "Otávio", "Patricia", "Quintino", "Rafaela", "Sergio", "Tatiana",
-    "Ulisses", "Vanessa", "Wagner", "Xuxa", "Yago", "Zélia", "Ana", "Beto", "Clara", "Diego",
-    "Elaine", "Fábio", "Giovana", "Hugo", "Isabela", "João", "Kamila", "Leonardo", "Mariana", "Nelson",
-    "Olívia", "Paulo", "Queila", "Ricardo", "Sandra", "Tiago", "Úrsula", "Vitor", "Wanessa", "Xavier",
-    "Yasmin", "Zacarias", "Amanda", "Breno", "Cristina", "Daniel", "Elisa", "Felipe", "Gabriela", "Heitor",
-    "Ingrid", "José", "Karina", "Lucas", "Mônica", "Norberto", "Orlando", "Pâmela", "Quirino", "Roberta",
-    "Samuel", "Teresa", "Ubirajara", "Valentina", "William", "Ximena", "Yuri", "Zara", "Aline", "Bernardo",
-    "Camila", "Dênis", "Ester", "Francisco", "Geovana", "Henrique", "Ivana", "Jorge", "Lívia", "Murilo",
-    "Natasha", "Osvaldo", "Priscila", "Quésia", "Rodrigo", "Sabrina", "Thiago", "Úrsula", "Vinícius", "Wendy"
-]
-
-for i, nome in enumerate(nomes, start=1):
-    if i == 85:
-        print("teste")
-        break
-    
-    if nome == "Úrsula":
-        print("Bônus")
-    
-    if i % 15 == 0:
-        print("teste")
+data = 19
+contador = 0
+while contador <=100:
+ mult = contador * data
+ while mult >= 1000:
+     print("maior que 1000")
+     data +=1
+     print(mult)
