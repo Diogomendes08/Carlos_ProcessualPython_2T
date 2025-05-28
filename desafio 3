@@ -1,31 +1,24 @@
-usuarios = ["Arthur", "Beatriz", "Caio", "Daniela", "Eduardo", "Fernanda", "Gabriel", "Helena", "Igor", "Júlia",
-"Kauã", "Larissa", "Miguel", "Natália", "Otávio",]
+nomes = [
+    "Alice", "Bruno", "Carlos", "Diana", "Eduardo", "Fernanda", "Gustavo", "Helena", "Igor", "Julia",
+    "Kevin", "Larissa", "Marcos", "Natalia", "Otávio", "Patricia", "Quintino", "Rafaela", "Sergio", "Tatiana",
+    "Ulisses", "Vanessa", "Wagner", "Xuxa", "Yago", "Zélia", "Ana", "Beto", "Clara", "Diego",
+    "Elaine", "Fábio", "Giovana", "Hugo", "Isabela", "João", "Kamila", "Leonardo", "Mariana", "Nelson",
+    "Olívia", "Paulo", "Queila", "Ricardo", "Sandra", "Tiago", "Úrsula", "Vitor", "Wanessa", "Xavier",
+    "Yasmin", "Zacarias", "Amanda", "Breno", "Cristina", "Daniel", "Elisa", "Felipe", "Gabriela", "Heitor",
+    "Ingrid", "José", "Karina", "Lucas", "Mônica", "Norberto", "Orlando", "Pâmela", "Quirino", "Roberta",
+    "Samuel", "Teresa", "Ubirajara", "Valentina", "William", "Ximena", "Yuri", "Zara", "Aline", "Bernardo",
+    "Camila", "Dênis", "Ester", "Francisco", "Geovana", "Henrique", "Ivana", "Jorge", "Lívia", "Murilo",
+    "Natasha", "Osvaldo", "Priscila", "Quésia", "Rodrigo", "Sabrina", "Thiago", "Úrsula", "Vinícius", "Wendy"
+]
 
-for usuarios in  usuarios:
+for i, nome in enumerate(nome, start=1):
+    print (nome)
+        print("teste")
+        if nome=="Úrsula"
+         print("Bônus")
     
-"Olivia", "Pedro", "Patrícia", "Rafael", "Rafaela",
-"Samuel", "Sabrina", "Thiago", "Tainá", "Victor", "Úrsula", "William", "Valentina", "André", "Yasmin",
-
-for usuarios in usuarios:
-    
-"Bruno", "Zuleika", "Diego", "Clara", "Enzo", "Cecília", "Guilherme", "Elisa", "Heitor", "Lívia",
-"Isaac", "Mariana", "Jorge", "Sofia", "Lucas",
-
-for usuarios in usuarios:
-    
-"Ana", "Benjamin", "Camila", "Daniel", "Eduarda",
-"Felipe", "Gabriela", "Henrique", "Isabela", "João", "Karina", "Leonardo", "Luana", "Nicolas", "Maria",
-
-for usuarios in usuarios:
-    
-"Alex", "Ariel", "Charlie", "Dani", "Dominique", "Emerson", "Francis", "Gabi", "Harley", "Indigo",
-"Jaime", "Kai", "Logan", "Morgan", "Noel",
-
-"Orion", "Phoenix", "Quinn", "Riley", "Sam",
-"Taylor", "Zion", "Avery", "Blair", "Casey", "Devon", "Eden", "Finley", "Gray", "Hunter",
-"Jordan", "Kendall", "Leslie", "Milan", "Nico", "Ocean", "Robin", "Sky", "Terry", "Winter"]
-
-for usuarios in  usuarios:
-    in  usuarios ==""
-print (usuario "encontrado", usuarios) break
-print("verificando"  usuarios)
+    if i % 15 == 0:
+        print("teste")
+         if i == 85:
+             print("teste")
+   break
