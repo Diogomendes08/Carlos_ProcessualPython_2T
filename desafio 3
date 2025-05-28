@@ -12,12 +12,13 @@ nomes = [
 ]
 
 for i, nome in enumerate(nome, start=1):
-    print (nome)
+  
+    if i % 15 == 0:
+print (nome)
         print("teste")
         if nome=="Úrsula"
          print("Bônus")
     
-    if i % 15 == 0:
         print("teste")
          if i == 85:
              print("teste")
