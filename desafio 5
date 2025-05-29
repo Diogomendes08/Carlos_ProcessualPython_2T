@@ -3,22 +3,19 @@ def main():
              "pedro", "gustavo", "gustavo", "angelo", "gabriel"]
              
     nomes_ordenados = sorted(nomes, key=lambda x: x.lower())
-    print("\nNomes em ordem alfabética:")
+   
     for i, nome in enumerate(nomes_ordenados, 1):
         print(f"{i}. {nome}")
 
-    print("\nAnálise de caracteres por nome:")
     contagem_letras = []
     for nome in nomes_ordenados:
         qtd_letras = len(nome.replace(" ", ""))
         contagem_letras.append(qtd_letras)
         print(f"- {nome}: {qtd_letras} letras")
 
-    print("ESTATÍSTICAS:")
     print(f"Total de nomes: {len(nomes)}")
     print(f"Nome mais curto: '{min(nomes, key=lambda x: len(x))}' ({len(min(nomes, key=lambda x: len(x)))} letras)")
     print(f"Nome mais longo: '{max(nomes, key=lambda x: len(x))}' ({len(max(nomes, key=lambda x: len(x)))} letras)")
-    print(f"Média de letras por nome: {sum(contagem_letras)/len(contagem_letras):.1f}")
-
+  
 if __name__ == "__main__":
     main()
